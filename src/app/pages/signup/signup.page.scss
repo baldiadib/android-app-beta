@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,,00&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+#all{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+
+}
+#center{
+    border-radius:100%;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 180%;
+    width:180%;
+}
+
+#logo{
+    text-align: center;
+
+
+}
+#legend{
+    opacity:60%;
+    text-align: center;
+    margin-bottom: -26px;
+ 
+}
+#login-legend{
+    color: white;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    padding: 0 80px;
+    text-align: center;
+    font-weight: 600;
+}
+form{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.field{
+outline: none;
+background-color: transparent;
+border: 2px grey solid;
+margin: 5px 100px;
+height: 50px;
+padding: 10px;
+border-radius: 5px;
+color:black;
+}
+.field:focus{
+    border: 2px white solid;
+}   
+.field:focus::placeholder{
+    color: white;
+}  
+button {
+    background: white ;
+
+    color: #0f2027;
+    text-align: center;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  p{
+    color: black;
+    opacity: 60%;
+  }
+  a{
+    color: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  }
+
